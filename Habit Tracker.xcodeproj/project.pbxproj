@@ -3,50 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7ABA0D93C46963CAD6D7E29F /* Pods_Habit_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24195917B3C4BAC9BB409A42 /* Pods_Habit_Tracker.framework */; };
 		911637F5229F574600B8D460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911637F4229F574600B8D460 /* AppDelegate.swift */; };
 		911637F7229F574600B8D460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911637F6229F574600B8D460 /* ViewController.swift */; };
-		911637FA229F574600B8D460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911637F8229F574600B8D460 /* Main.storyboard */; };
 		911637FC229F574600B8D460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911637FB229F574600B8D460 /* Assets.xcassets */; };
-		911637FF229F574600B8D460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911637FD229F574600B8D460 /* LaunchScreen.storyboard */; };
-		9116380A229F574600B8D460 /* Habit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163809229F574600B8D460 /* Habit_TrackerTests.swift */; };
-		91163815229F574700B8D460 /* Habit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163814229F574700B8D460 /* Habit_TrackerUITests.swift */; };
+		91163826229F584C00B8D460 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163825229F584C00B8D460 /* Habit.swift */; };
+		91163828229F586C00B8D460 /* HabitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163827229F586C00B8D460 /* HabitController.swift */; };
+		9116382A229F58D400B8D460 /* HabitsConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163829229F58D400B8D460 /* HabitsConfigurationViewController.swift */; };
+		9122E216229F60B80041F387 /* HabitsConfiguration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E210229F60B80041F387 /* HabitsConfiguration.storyboard */; };
+		9122E217229F60B80041F387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E212229F60B80041F387 /* LaunchScreen.storyboard */; };
+		9122E218229F60B80041F387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E214229F60B80041F387 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		91163806229F574600B8D460 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 911637E9229F574600B8D460 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 911637F0229F574600B8D460;
-			remoteInfo = "Habit Tracker";
-		};
-		91163811229F574700B8D460 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 911637E9229F574600B8D460 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 911637F0229F574600B8D460;
-			remoteInfo = "Habit Tracker";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		911637F1229F574600B8D460 /* Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24195917B3C4BAC9BB409A42 /* Pods_Habit_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habit_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E765E121483795E6A7C5822 /* Pods-Habit Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		911637F4229F574600B8D460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		911637F6229F574600B8D460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		911637F9229F574600B8D460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		911637FB229F574600B8D460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		911637FE229F574600B8D460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91163800229F574600B8D460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91163805229F574600B8D460 /* Habit TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91163809229F574600B8D460 /* Habit_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerTests.swift; sourceTree = "<group>"; };
-		9116380B229F574600B8D460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91163810229F574700B8D460 /* Habit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91163814229F574700B8D460 /* Habit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_TrackerUITests.swift; sourceTree = "<group>"; };
-		91163816229F574700B8D460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91163825229F584C00B8D460 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		91163827229F586C00B8D460 /* HabitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitController.swift; sourceTree = "<group>"; };
+		91163829229F58D400B8D460 /* HabitsConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsConfigurationViewController.swift; sourceTree = "<group>"; };
+		9122E211229F60B80041F387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HabitsConfiguration.storyboard; sourceTree = "<group>"; };
+		9122E213229F60B80041F387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9122E215229F60B80041F387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		912E98E4229F5FE300668E4A /* Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04F0D76862D7C823100A485 /* Pods-Habit Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker.release.xcconfig"; path = "Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,75 +41,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91163802229F574600B8D460 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9116380D229F574700B8D460 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7ABA0D93C46963CAD6D7E29F /* Pods_Habit_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C7F55D794791A2A9AB617B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24195917B3C4BAC9BB409A42 /* Pods_Habit_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E816D0B777FCE92EB9C6DDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E765E121483795E6A7C5822 /* Pods-Habit Tracker.debug.xcconfig */,
+				B04F0D76862D7C823100A485 /* Pods-Habit Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		911637E8229F574600B8D460 = {
 			isa = PBXGroup;
 			children = (
 				911637F3229F574600B8D460 /* Habit Tracker */,
-				91163808229F574600B8D460 /* Habit TrackerTests */,
-				91163813229F574700B8D460 /* Habit TrackerUITests */,
-				911637F2229F574600B8D460 /* Products */,
+				6E816D0B777FCE92EB9C6DDC /* Pods */,
+				4C7F55D794791A2A9AB617B7 /* Frameworks */,
+				912E98E4229F5FE300668E4A /* Habit Tracker.app */,
 			);
-			sourceTree = "<group>";
-		};
-		911637F2229F574600B8D460 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				911637F1229F574600B8D460 /* Habit Tracker.app */,
-				91163805229F574600B8D460 /* Habit TrackerTests.xctest */,
-				91163810229F574700B8D460 /* Habit TrackerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		911637F3229F574600B8D460 /* Habit Tracker */ = {
 			isa = PBXGroup;
 			children = (
 				911637F4229F574600B8D460 /* AppDelegate.swift */,
-				911637F6229F574600B8D460 /* ViewController.swift */,
-				911637F8229F574600B8D460 /* Main.storyboard */,
+				91163822229F579C00B8D460 /* Model */,
+				91163823229F57A800B8D460 /* View */,
+				91163824229F57AF00B8D460 /* Controller */,
 				911637FB229F574600B8D460 /* Assets.xcassets */,
-				911637FD229F574600B8D460 /* LaunchScreen.storyboard */,
 				91163800229F574600B8D460 /* Info.plist */,
+				9122E210229F60B80041F387 /* HabitsConfiguration.storyboard */,
+				9122E212229F60B80041F387 /* LaunchScreen.storyboard */,
+				9122E214229F60B80041F387 /* Main.storyboard */,
 			);
 			path = "Habit Tracker";
 			sourceTree = "<group>";
 		};
-		91163808229F574600B8D460 /* Habit TrackerTests */ = {
+		91163822229F579C00B8D460 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				91163809229F574600B8D460 /* Habit_TrackerTests.swift */,
-				9116380B229F574600B8D460 /* Info.plist */,
+				91163825229F584C00B8D460 /* Habit.swift */,
 			);
-			path = "Habit TrackerTests";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		91163813229F574700B8D460 /* Habit TrackerUITests */ = {
+		91163823229F57A800B8D460 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				91163814229F574700B8D460 /* Habit_TrackerUITests.swift */,
-				91163816229F574700B8D460 /* Info.plist */,
+				911637F6229F574600B8D460 /* ViewController.swift */,
+				91163829229F58D400B8D460 /* HabitsConfigurationViewController.swift */,
 			);
-			path = "Habit TrackerUITests";
+			path = View;
+			sourceTree = "<group>";
+		};
+		91163824229F57AF00B8D460 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91163827229F586C00B8D460 /* HabitController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91163819229F574700B8D460 /* Build configuration list for PBXNativeTarget "Habit Tracker" */;
 			buildPhases = (
+				B3B5587DCC66D4F00C90CAA8 /* [CP] Check Pods Manifest.lock */,
 				911637ED229F574600B8D460 /* Sources */,
 				911637EE229F574600B8D460 /* Frameworks */,
 				911637EF229F574600B8D460 /* Resources */,
+				AB4AE23AE91EA16FC355F40D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,44 +135,8 @@
 			);
 			name = "Habit Tracker";
 			productName = "Habit Tracker";
-			productReference = 911637F1229F574600B8D460 /* Habit Tracker.app */;
+			productReference = 912E98E4229F5FE300668E4A /* Habit Tracker.app */;
 			productType = "com.apple.product-type.application";
-		};
-		91163804229F574600B8D460 /* Habit TrackerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9116381C229F574700B8D460 /* Build configuration list for PBXNativeTarget "Habit TrackerTests" */;
-			buildPhases = (
-				91163801229F574600B8D460 /* Sources */,
-				91163802229F574600B8D460 /* Frameworks */,
-				91163803229F574600B8D460 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91163807229F574600B8D460 /* PBXTargetDependency */,
-			);
-			name = "Habit TrackerTests";
-			productName = "Habit TrackerTests";
-			productReference = 91163805229F574600B8D460 /* Habit TrackerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9116380F229F574700B8D460 /* Habit TrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9116381F229F574700B8D460 /* Build configuration list for PBXNativeTarget "Habit TrackerUITests" */;
-			buildPhases = (
-				9116380C229F574700B8D460 /* Sources */,
-				9116380D229F574700B8D460 /* Frameworks */,
-				9116380E229F574700B8D460 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91163812229F574700B8D460 /* PBXTargetDependency */,
-			);
-			name = "Habit TrackerUITests";
-			productName = "Habit TrackerUITests";
-			productReference = 91163810229F574700B8D460 /* Habit TrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,14 +151,6 @@
 					911637F0229F574600B8D460 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					91163804229F574600B8D460 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 911637F0229F574600B8D460;
-					};
-					9116380F229F574700B8D460 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 911637F0229F574600B8D460;
-					};
 				};
 			};
 			buildConfigurationList = 911637EC229F574600B8D460 /* Build configuration list for PBXProject "Habit Tracker" */;
@@ -213,13 +162,11 @@
 				Base,
 			);
 			mainGroup = 911637E8229F574600B8D460;
-			productRefGroup = 911637F2229F574600B8D460 /* Products */;
+			productRefGroup = 911637E8229F574600B8D460;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				911637F0229F574600B8D460 /* Habit Tracker */,
-				91163804229F574600B8D460 /* Habit TrackerTests */,
-				9116380F229F574700B8D460 /* Habit TrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,84 +176,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911637FF229F574600B8D460 /* LaunchScreen.storyboard in Resources */,
+				9122E217229F60B80041F387 /* LaunchScreen.storyboard in Resources */,
+				9122E216229F60B80041F387 /* HabitsConfiguration.storyboard in Resources */,
 				911637FC229F574600B8D460 /* Assets.xcassets in Resources */,
-				911637FA229F574600B8D460 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91163803229F574600B8D460 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9116380E229F574700B8D460 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9122E218229F60B80041F387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB4AE23AE91EA16FC355F40D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B5587DCC66D4F00C90CAA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Habit Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		911637ED229F574600B8D460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91163828229F586C00B8D460 /* HabitController.swift in Sources */,
+				91163826229F584C00B8D460 /* Habit.swift in Sources */,
 				911637F7229F574600B8D460 /* ViewController.swift in Sources */,
+				9116382A229F58D400B8D460 /* HabitsConfigurationViewController.swift in Sources */,
 				911637F5229F574600B8D460 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91163801229F574600B8D460 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9116380A229F574600B8D460 /* Habit_TrackerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9116380C229F574700B8D460 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91163815229F574700B8D460 /* Habit_TrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		91163807229F574600B8D460 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 911637F0229F574600B8D460 /* Habit Tracker */;
-			targetProxy = 91163806229F574600B8D460 /* PBXContainerItemProxy */;
-		};
-		91163812229F574700B8D460 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 911637F0229F574600B8D460 /* Habit Tracker */;
-			targetProxy = 91163811229F574700B8D460 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		911637F8229F574600B8D460 /* Main.storyboard */ = {
+		9122E210229F60B80041F387 /* HabitsConfiguration.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				911637F9229F574600B8D460 /* Base */,
+				9122E211229F60B80041F387 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HabitsConfiguration.storyboard;
 			sourceTree = "<group>";
 		};
-		911637FD229F574600B8D460 /* LaunchScreen.storyboard */ = {
+		9122E212229F60B80041F387 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				911637FE229F574600B8D460 /* Base */,
+				9122E213229F60B80041F387 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9122E214229F60B80041F387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9122E215229F60B80041F387 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,6 +388,7 @@
 		};
 		9116381A229F574700B8D460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E765E121483795E6A7C5822 /* Pods-Habit Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +406,7 @@
 		};
 		9116381B229F574700B8D460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04F0D76862D7C823100A485 /* Pods-Habit Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,84 +419,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9116381D229F574700B8D460 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Habit TrackerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.caar.Habit-TrackerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habit Tracker.app/Habit Tracker";
-			};
-			name = Debug;
-		};
-		9116381E229F574700B8D460 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Habit TrackerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.caar.Habit-TrackerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habit Tracker.app/Habit Tracker";
-			};
-			name = Release;
-		};
-		91163820229F574700B8D460 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Habit TrackerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.caar.Habit-TrackerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Habit Tracker";
-			};
-			name = Debug;
-		};
-		91163821229F574700B8D460 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Habit TrackerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.caar.Habit-TrackerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Habit Tracker";
 			};
 			name = Release;
 		};
@@ -557,24 +439,6 @@
 			buildConfigurations = (
 				9116381A229F574700B8D460 /* Debug */,
 				9116381B229F574700B8D460 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9116381C229F574700B8D460 /* Build configuration list for PBXNativeTarget "Habit TrackerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9116381D229F574700B8D460 /* Debug */,
-				9116381E229F574700B8D460 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9116381F229F574700B8D460 /* Build configuration list for PBXNativeTarget "Habit TrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				91163820229F574700B8D460 /* Debug */,
-				91163821229F574700B8D460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
