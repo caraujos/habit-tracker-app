@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  TrackerViewController.swift
 //  Habit Tracker
 //
-//  Created by caar on 28.05.19.
+//  Created by Netlight on 30.05.19.
 //  Copyright © 2019 Caar. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TrackerViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let controller = HabitController()
     
     @IBOutlet weak var tableViewHabits: UITableView!
@@ -31,3 +31,4 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
 }
+

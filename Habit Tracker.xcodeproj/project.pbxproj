@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7ABA0D93C46963CAD6D7E29F /* Pods_Habit_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24195917B3C4BAC9BB409A42 /* Pods_Habit_Tracker.framework */; };
 		911637F5229F574600B8D460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911637F4229F574600B8D460 /* AppDelegate.swift */; };
-		911637F7229F574600B8D460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911637F6229F574600B8D460 /* ViewController.swift */; };
 		911637FC229F574600B8D460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911637FB229F574600B8D460 /* Assets.xcassets */; };
 		91163826229F584C00B8D460 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163825229F584C00B8D460 /* Habit.swift */; };
 		91163828229F586C00B8D460 /* HabitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91163827229F586C00B8D460 /* HabitController.swift */; };
@@ -17,13 +16,13 @@
 		9122E216229F60B80041F387 /* HabitsConfiguration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E210229F60B80041F387 /* HabitsConfiguration.storyboard */; };
 		9122E217229F60B80041F387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E212229F60B80041F387 /* LaunchScreen.storyboard */; };
 		9122E218229F60B80041F387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E214229F60B80041F387 /* Main.storyboard */; };
+		917F051D22A0616D00EA5377 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F051C22A0616D00EA5377 /* TrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24195917B3C4BAC9BB409A42 /* Pods_Habit_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habit_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E765E121483795E6A7C5822 /* Pods-Habit Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		911637F4229F574600B8D460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		911637F6229F574600B8D460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		911637FB229F574600B8D460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91163800229F574600B8D460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91163825229F584C00B8D460 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		9122E213229F60B80041F387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9122E215229F60B80041F387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		912E98E4229F5FE300668E4A /* Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		917F051C22A0616D00EA5377 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
 		B04F0D76862D7C823100A485 /* Pods-Habit Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker.release.xcconfig"; path = "Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 		91163823229F57A800B8D460 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				911637F6229F574600B8D460 /* ViewController.swift */,
+				917F051C22A0616D00EA5377 /* TrackerViewController.swift */,
 				91163829229F58D400B8D460 /* HabitsConfigurationViewController.swift */,
 			);
 			path = View;
@@ -234,7 +234,7 @@
 			files = (
 				91163828229F586C00B8D460 /* HabitController.swift in Sources */,
 				91163826229F584C00B8D460 /* Habit.swift in Sources */,
-				911637F7229F574600B8D460 /* ViewController.swift in Sources */,
+				917F051D22A0616D00EA5377 /* TrackerViewController.swift in Sources */,
 				9116382A229F58D400B8D460 /* HabitsConfigurationViewController.swift in Sources */,
 				911637F5229F574600B8D460 /* AppDelegate.swift in Sources */,
 			);
