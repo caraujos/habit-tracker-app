@@ -42,13 +42,5 @@
             </objects>
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="lr6-eL-pmH">
-            <objects>
-                <viewControllerPlaceholder id="R9f-tR-l5f" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qJI-eh-Tkm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="722" y="311"/>
-        </scene>
     </scenes>
 </document>

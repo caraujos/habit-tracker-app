@@ -36,4 +36,8 @@ class HabitController{
         }
     }
     
+    func getHabitNameFor(_ row:Int)->String?{
+        return realm.objects(Habit.self).filter("month=0")[row].name
+    }
+    
 }
