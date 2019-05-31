@@ -24,9 +24,9 @@ class TrackerViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = controller.getHabitNameFor(indexPath.row)
-        return cell
+        let habitCell = tableView.dequeueReusableCell(withIdentifier: "habitCell", for: indexPath) as! HabitTableViewCell
+        habitCell.setUp(indexPath.row)
+        return habitCell
     }
     
     

@@ -17,6 +17,7 @@
 		9122E217229F60B80041F387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E212229F60B80041F387 /* LaunchScreen.storyboard */; };
 		9122E218229F60B80041F387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9122E214229F60B80041F387 /* Main.storyboard */; };
 		917F051D22A0616D00EA5377 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F051C22A0616D00EA5377 /* TrackerViewController.swift */; };
+		917F051F22A08ADA00EA5377 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917F051E22A08ADA00EA5377 /* HabitTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9122E215229F60B80041F387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		912E98E4229F5FE300668E4A /* Habit Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		917F051C22A0616D00EA5377 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		917F051E22A08ADA00EA5377 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
 		B04F0D76862D7C823100A485 /* Pods-Habit Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habit Tracker.release.xcconfig"; path = "Target Support Files/Pods-Habit Tracker/Pods-Habit Tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				917F051C22A0616D00EA5377 /* TrackerViewController.swift */,
 				91163829229F58D400B8D460 /* HabitsConfigurationViewController.swift */,
+				917F051E22A08ADA00EA5377 /* HabitTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				91163826229F584C00B8D460 /* Habit.swift in Sources */,
 				917F051D22A0616D00EA5377 /* TrackerViewController.swift in Sources */,
 				9116382A229F58D400B8D460 /* HabitsConfigurationViewController.swift in Sources */,
+				917F051F22A08ADA00EA5377 /* HabitTableViewCell.swift in Sources */,
 				911637F5229F574600B8D460 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
